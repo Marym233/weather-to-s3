@@ -7,6 +7,11 @@ A simple Python project that fetches live weather data from a public API and sto
 - Converts the response into a JSON file
 - Uploads that file to an AWS S3 bucket using boto3
 
+## Result
+Successfully uploads a new timestamped JSON file to S3 each time the script runs:
+
+![S3 bucket showing uploaded weather files](screenshot_weather.png)
+
 ## Tech used
 - Python
 - AWS S3 (via boto3)
